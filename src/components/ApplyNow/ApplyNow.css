@@ -1,0 +1,180 @@
+#mobile-number {
+  font-size: 20px;
+  border: none;
+  background-color: black;
+  padding: 15px 10px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+}
+
+#download-btn {
+  text-decoration: none;
+  color: black;
+  background-color: rgba(253, 239, 120);
+  padding: 15px 120px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.download-text {
+  margin-top: 20px;
+}
+
+.download-text p {
+  font-size: 11px;
+}
+
+.register-phone {
+  background-color: black;
+  font-size: 24px;
+  width: fit-content;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+}
+
+.icon {
+  background-color: black;
+  font-size: 30px;
+  padding: 0 5px;
+}
+
+.valid-icon {
+  color: green;
+}
+
+.invalid-icon {
+  color: red;
+}
+
+#apply {
+  background-color: rgba(253, 239, 120);
+  color: black;
+
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+#apply:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+#apply span {
+  display: inline;
+}
+
+.arrow {
+  display: none;
+}
+
+#check-box {
+  font-size: 12px;
+  display: flex;
+  max-width: 350px; /* Set the desired width where the text should break */
+  overflow: hidden;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+input[type="checkbox"] {
+  margin-right: 4px;
+}
+
+.disable {
+  display: none;
+}
+
+#remove-padding {
+  padding: 0;
+}
+
+/* spinner-css */
+
+/* checkbox-css */
+
+@media screen and (max-width: 600px) {
+  .applynow-container {
+    margin-top: 30%;
+  }
+  .register-phone {
+    background-color: transparent;
+    width: 110%;
+  }
+
+  .register-phone div {
+    width: 100%;
+  }
+
+  .mobile-version-UNI-link {
+    text-decoration: none;
+    margin-bottom: 20px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    width: 100%;
+    padding: 20px;
+    cursor: pointer;
+  }
+
+  .input-container {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .input-container input {
+    width: 100%;
+  }
+
+  #apply {
+    width: 100%;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .arrow {
+    display: block;
+  }
+
+  .apply-arrow-mobile-version {
+    display: flex;
+    justify-content: space-between;
+  }
+  /* #mobile-apply {
+    width: 360px;
+    padding: 15px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(253, 239, 120);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  } */
+}
+
+@media screen and (max-width: 400px) {
+  .applynow-container {
+    margin-top: 0%;
+  }
+
+  #about {
+    font-size: 25px;
+  }
+}
